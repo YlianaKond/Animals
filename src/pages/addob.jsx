@@ -352,7 +352,7 @@ const Addob = () => {
         try {
             let userToken = null;
             let isNewRegistration = false;
-
+            
             // Логика регистрации/входа из кода 2
             if (formData.register) {
                 if (!isAuthenticated) {
@@ -880,17 +880,17 @@ const Addob = () => {
                                         className="btn btn-success btn-lg button-css"
                                         disabled={loading}
                                         style={{
-                                            backgroundColor: 'rgb(91, 160, 74)',
-                                            borderColor: 'rgb(91, 160, 74)',
+                                            backgroundColor: 'rgb(243, 154, 228)',
+                                            borderColor: 'rgb(243, 121, 202)',
                                             color: 'white'
                                         }}
                                         onMouseEnter={(e) => {
-                                            e.target.style.backgroundColor = 'rgb(66, 124, 51)';
-                                            e.target.style.borderColor = 'rgb(66, 124, 51)';
+                                            e.target.style.backgroundColor = 'rgb(212, 159, 192)';
+                                            e.target.style.borderColor = 'rgb(211, 151, 196)';
                                         }}
                                         onMouseLeave={(e) => {
-                                            e.target.style.backgroundColor = 'rgb(91, 160, 74)';
-                                            e.target.style.borderColor = 'rgb(91, 160, 74)';
+                                            e.target.style.backgroundColor = 'rgb(189, 74, 112)';
+                                            e.target.style.borderColor = 'rgb(218, 127, 162)';
                                         }}
                                     >
                                         {loading ? (

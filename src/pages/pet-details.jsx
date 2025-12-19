@@ -173,17 +173,17 @@ const PetDetails = () => {
                         className="btn btn-primary mt-3"
                         onClick={() => navigate(-1)}
                         style={{
-                            backgroundColor: 'rgb(91, 160, 74)',
-                            borderColor: 'rgb(91, 160, 74)',
+                            backgroundColor: 'rgb(197, 123, 181)',
+                            borderColor: 'rgb(197, 123, 181)',
                             color: 'white'
                         }}
                         onMouseEnter={(e) => {
-                            e.target.style.backgroundColor = 'rgb(66, 124, 51)';
-                            e.target.style.borderColor = 'rgb(66, 124, 51)';
+                            e.target.style.backgroundColor = 'rgb(197, 123, 181)';
+                            e.target.style.borderColor = 'rgb(197, 123, 181)';
                         }}
                         onMouseLeave={(e) => {
-                            e.target.style.backgroundColor = 'rgb(91, 160, 74)';
-                            e.target.style.borderColor = 'rgb(91, 160, 74)';
+                            e.target.style.backgroundColor = 'rgb(197, 123, 181)';
+                            e.target.style.borderColor = 'rgb(197, 123, 181)';
                         }}
                     >
                         <i className="bi bi-arrow-left me-2">Вернуться</i>
@@ -203,7 +203,7 @@ const PetDetails = () => {
                     <div className="col-lg-6 col-md-12 mb-4 mb-lg-0">
                         <div className="card" style={{
                             border: 'none',
-                            backgroundColor: 'rgb(91, 160, 74)',
+                            backgroundColor: 'rgb(197, 123, 181)',
                             height: 'auto',
                             minHeight: '400px'
                         }}>
@@ -258,8 +258,8 @@ const PetDetails = () => {
                                                     onClick={handlePreviousImage}
                                                     style={{
                                                         zIndex: 1,
-                                                        backgroundColor: 'rgb(91, 160, 74)',
-                                                        borderColor: 'rgb(91, 160, 74)',
+                                                        backgroundColor: 'rgb(197, 123, 181)',
+                                                        borderColor: 'rgb(197, 123, 181)',
                                                         color: 'white',
                                                         opacity: '0.8'
                                                     }}
@@ -271,8 +271,8 @@ const PetDetails = () => {
                                                     onClick={handleNextImage}
                                                     style={{
                                                         zIndex: 1,
-                                                        backgroundColor: 'rgb(91, 160, 74)',
-                                                        borderColor: 'rgb(91, 160, 74)',
+                                                        backgroundColor: 'rgb(197, 123, 181)',
+                                                        borderColor: 'rgb(197, 123, 181)',
                                                         color: 'white',
                                                         opacity: '0.8'
                                                     }}
@@ -292,8 +292,8 @@ const PetDetails = () => {
                                                                     width: '10px',
                                                                     height: '10px',
                                                                     padding: 0,
-                                                                    backgroundColor: index === activeImageIndex ? 'rgb(91, 160, 74)' : '#6c757d',
-                                                                    borderColor: index === activeImageIndex ? 'rgb(91, 160, 74)' : '#6c757d'
+                                                                    backgroundColor: index === activeImageIndex ? 'rgb(197, 123, 181)' : '#6c757d',
+                                                                    borderColor: index === activeImageIndex ? 'rgb(197, 123, 181)' : '#6c757d'
                                                                 }}
                                                             >
                                                                 <span className="visually-hidden">Изображение {index + 1}</span>
@@ -390,7 +390,7 @@ const PetDetails = () => {
                                                 <td>
                                                     <small>
                                                         {pet.phone ? (
-                                                            <a href={`tel:${pet.phone}`} className="text-decoration-none" style={{ color: 'rgb(91, 160, 74)' }}>
+                                                            <a href={`tel:${pet.phone}`} className="text-decoration-none" style={{ color: 'rgb(0, 0, 0)' }}>
                                                                 {pet.phone}
                                                             </a>
                                                         ) : 'Не указан'}
@@ -404,7 +404,7 @@ const PetDetails = () => {
                                                 <td>
                                                     <small>
                                                         {pet.email ? (
-                                                            <a href={`mailto:${pet.email}`} className="text-decoration-none" style={{ color: 'rgb(91, 160, 74)' }}>
+                                                            <a href={`mailto:${pet.email}`} className="text-decoration-none" style={{ color: 'rgb(0, 0, 0)' }}>
                                                                 {pet.email}
                                                             </a>
                                                         ) : 'Не указан'}
@@ -421,19 +421,19 @@ const PetDetails = () => {
                                         className="btn flex-shrink-0"
                                         onClick={() => window.history.back()}
                                         style={{
-                                            backgroundColor: 'rgb(91, 160, 74)',
-                                            borderColor: 'rgb(91, 160, 74)',
+                                            backgroundColor: 'rgb(197, 123, 181)',
+                                            borderColor: 'rgb(228, 172, 214)',
                                             color: 'white',
                                             whiteSpace: 'nowrap',
                                             minWidth: '120px'
                                         }}
                                         onMouseEnter={(e) => {
-                                            e.target.style.backgroundColor = 'rgb(66, 124, 51)';
-                                            e.target.style.borderColor = 'rgb(66, 124, 51)';
+                                            e.target.style.backgroundColor = 'rgb(197, 123, 181)';
+                                            e.target.style.borderColor = 'rgb(228, 172, 214)';
                                         }}
                                         onMouseLeave={(e) => {
-                                            e.target.style.backgroundColor = 'rgb(91, 160, 74)';
-                                            e.target.style.borderColor = 'rgb(91, 160, 74)';
+                                            e.target.style.backgroundColor = 'rgb(228, 172, 214)';
+                                            e.target.style.borderColor = 'rgb(197, 123, 181)';
                                         }}
                                     >
                                         Вернуться
@@ -442,8 +442,8 @@ const PetDetails = () => {
                                         className="btn flex-shrink-0"
                                         onClick={() => navigate('/search')}
                                         style={{
-                                            color: 'rgb(91, 160, 74)',
-                                            borderColor: 'rgb(91, 160, 74)',
+                                            color: 'rgb(197, 123, 181)',
+                                            borderColor: 'rgb(197, 123, 181)',
                                             backgroundColor: 'transparent',
                                             whiteSpace: 'nowrap',
                                             minWidth: '180px'

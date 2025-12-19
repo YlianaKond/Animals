@@ -217,7 +217,7 @@ const Main = () => {
                     <div className="spinner-border" role="status" style={{
                         width: '3rem',
                         height: '3rem',
-                        color: 'rgb(91, 160, 74)'
+                        color: 'rgb(235, 186, 218)'
                     }}>
                         <span className="visually-hidden">Загрузка...</span>
                     </div>
@@ -243,9 +243,11 @@ const Main = () => {
                     <div id="carouselExampleCaptions" className="carousel slide" data-bs-ride="carousel">
                         <div className="carousel-indicators">
                             {sliderPets.map((_, index) => (
+                                
                                 <button
                                     key={index}
                                     type="button"
+                                    
                                     data-bs-target="#carouselExampleCaptions"
                                     data-bs-slide-to={index}
                                     className={index === 0 ? "active" : ""}
@@ -313,7 +315,7 @@ const Main = () => {
 
             <div className="container">
                 <div className="card" style={{
-                    backgroundColor: 'rgb(91, 160, 74)',
+                    backgroundColor: 'rgb(212, 109, 169)',
                     border: 'none',
                     color: 'white',
 
@@ -381,17 +383,17 @@ const Main = () => {
                                                     className="btn btn-primary button-css"
                                                     onClick={() => window.location.href = `/pet/${pet.id}`}
                                                     style={{
-                                                        backgroundColor: 'rgb(91, 160, 74)',
-                                                        borderColor: 'rgb(91, 160, 74)',
+                                                        backgroundColor: 'rgb(230, 116, 205)',
+                                                        borderColor: 'rgb(235, 152, 177)',
                                                         color: 'white'
                                                     }}
                                                     onMouseEnter={(e) => {
-                                                        e.target.style.backgroundColor = 'rgb(66, 124, 51)';
-                                                        e.target.style.borderColor = 'rgb(66, 124, 51)';
+                                                        e.target.style.backgroundColor = 'rgb(216, 128, 162)';
+                                                        e.target.style.borderColor = 'rgb(212, 137, 175)';
                                                     }}
                                                     onMouseLeave={(e) => {
-                                                        e.target.style.backgroundColor = 'rgb(91, 160, 74)';
-                                                        e.target.style.borderColor = 'rgb(91, 160, 74)';
+                                                        e.target.style.backgroundColor = 'rgb(230, 116, 205)';
+                                                        e.target.style.borderColor = 'rgb(230, 116, 205)';
                                                     }}
                                                 >
                                                     Подробнее

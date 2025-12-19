@@ -47,11 +47,9 @@ const Header = ({ isAuthenticated = false, userName = "" }) => {
 
     return (
         <header>
-            <nav className="navbar navbar-expand-lg" style={{ backgroundColor: "rgb(91, 160, 74)" }}>
+            <nav className="navbar navbar-expand-lg" style={{ backgroundColor: "rgb(240, 172, 212)" }}>
                 <div className="container-fluid">
-                    <Link to="/">
-                        <img src={logo} alt="Логотип" width="100px" className="me-5" />
-                    </Link>
+                    
                     <button
                         className="navbar-toggler"
                         type="button"
@@ -121,24 +119,24 @@ const Header = ({ isAuthenticated = false, userName = "" }) => {
                                             minWidth: '100px',
                                             transition: 'all 0.2s',
                                             backgroundColor: 'white',
-                                            color: 'rgb(91, 160, 74)',
+                                            color: 'rgb(133, 73, 78)',
                                             border: '1px solid white'
                                         }}
                                         onMouseOver={(e) => {
                                             e.target.style.backgroundColor = '#f8f9fa';
-                                            e.target.style.color = 'rgb(91, 160, 74)';
+                                            e.target.style.color = 'rgb(160, 74, 85)';
                                         }}
                                         onMouseOut={(e) => {
                                             e.target.style.backgroundColor = 'white';
-                                            e.target.style.color = 'rgb(91, 160, 74)';
+                                            e.target.style.color = 'rgb(160, 74, 85)';
                                         }}
                                         onMouseDown={(e) => {
                                             e.target.style.backgroundColor = '#e9ecef';
-                                            e.target.style.color = 'rgb(91, 160, 74)';
+                                            e.target.style.color = 'rgb(160, 74, 85)';
                                         }}
                                         onMouseUp={(e) => {
                                             e.target.style.backgroundColor = '#f8f9fa';
-                                            e.target.style.color = 'rgb(91, 160, 74)';
+                                            e.target.style.color = 'rgb(160, 74, 85)';
                                         }}
                                     >
                                         Войти
@@ -149,24 +147,24 @@ const Header = ({ isAuthenticated = false, userName = "" }) => {
                                         style={{
                                             minWidth: '140px',
                                             transition: 'all 0.2s',
-                                            backgroundColor: 'rgb(91, 160, 74)',
+                                            backgroundColor: 'rgb(104, 19, 75)',
                                             color: 'white',
                                             border: '1px solid white'
                                         }}
                                         onMouseOver={(e) => {
-                                            e.target.style.backgroundColor = 'rgb(66, 124, 51)';
+                                            e.target.style.backgroundColor = 'rgb(104, 19, 75)';
                                             e.target.style.color = 'white';
                                         }}
                                         onMouseOut={(e) => {
-                                            e.target.style.backgroundColor = 'rgb(91, 160, 74)';
+                                            e.target.style.backgroundColor = 'rgb(104, 19, 75)';
                                             e.target.style.color = 'white';
                                         }}
                                         onMouseDown={(e) => {
-                                            e.target.style.backgroundColor = 'rgb(56, 104, 41)';
+                                            e.target.style.backgroundColor = 'rgb(104, 19, 75)';
                                             e.target.style.color = 'white';
                                         }}
                                         onMouseUp={(e) => {
-                                            e.target.style.backgroundColor = 'rgb(66, 124, 51)';
+                                            e.target.style.backgroundColor = 'rgb(104, 19, 75)';
                                             e.target.style.color = 'white';
                                         }}
                                     >
@@ -195,7 +193,7 @@ const Header = ({ isAuthenticated = false, userName = "" }) => {
                                                     transition: 'background-color 0.2s'
                                                 }}
                                                 onMouseEnter={(e) => {
-                                                    e.target.style.backgroundColor = 'rgb(91, 160, 74)';
+                                                    e.target.style.backgroundColor = 'rgb(216, 176, 209)';
                                                     e.target.style.color = 'white';
                                                 }}
                                                 onMouseLeave={(e) => {

@@ -92,7 +92,7 @@ const Register = () => {
                 email: formData.register.email,
                 password: formData.register.password,
                 password_confirmation: formData.register.confirmPassword,
-                confirm: formData.register.agreeTerms ? 1 : 0
+                confirm: formData.register.agreeTerms 
             };
 
             // 1. Регистрация
@@ -376,8 +376,8 @@ const Register = () => {
                                                 type="checkbox"
                                                 className={`form-check-input ${errors.agreeTerms ? 'is-invalid' : ''}`}
                                                 id="agreeTerms"
-                                                checked={formData.agreeTerms}
-                                                onChange={(e) => handleInputChange('agreeTerms', e.target.checked)}
+                                                checked={formData.register.agreeTerms}
+                                                onChange={(e) => handleInputChange('register', 'agreeTerms', e.target.checked)}
                                                 required
                                                 disabled={loading}
                                             />

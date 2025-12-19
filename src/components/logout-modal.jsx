@@ -1,7 +1,7 @@
 import React from 'react';
 import ApiService from '../services/api';
 import { useNavigate } from 'react-router-dom';
-import Text from '../components/Text';
+
 
 const LogoutModal = ({ onLogout }) => {
     const navigate = useNavigate();

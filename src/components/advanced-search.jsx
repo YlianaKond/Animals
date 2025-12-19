@@ -88,8 +88,8 @@ const AdvancedSearch = ({
                             type="submit"
                             className="btn btn-search btn-primary button-css"
                             style={{
-                                backgroundColor: 'rgb(91, 160, 74)',
-                                borderColor: 'rgb(91, 160, 74)'
+                                backgroundColor: 'rgb(218, 125, 140)',
+                                borderColor: 'rgb(218, 125, 140)'
                             }}
                             disabled={loading}
                         >

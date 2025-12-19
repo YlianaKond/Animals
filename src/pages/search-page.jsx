@@ -353,18 +353,18 @@ const SearchPage = () => {
         }
 
         const paginationStyle = {
-            '--bs-pagination-color': 'rgb(91, 160, 74)',
+            '--bs-pagination-color': 'rgb(0, 0, 0)',
             '--bs-pagination-bg': '#fff',
             '--bs-pagination-border-color': '#dee2e6',
             '--bs-pagination-hover-color': '#fff',
-            '--bs-pagination-hover-bg': 'rgb(91, 160, 74)',
-            '--bs-pagination-hover-border-color': 'rgb(91, 160, 74)',
+            '--bs-pagination-hover-bg': 'rgb(57, 80, 51)',
+            '--bs-pagination-hover-border-color': 'rgb(0, 0, 0)',
             '--bs-pagination-focus-color': '#fff',
-            '--bs-pagination-focus-bg': 'rgb(91, 160, 74)',
+            '--bs-pagination-focus-bg': 'rgb(0, 0, 0)',
             '--bs-pagination-focus-box-shadow': '0 0 0 0.25rem rgba(91, 160, 74, 0.25)',
             '--bs-pagination-active-color': '#fff',
-            '--bs-pagination-active-bg': 'rgb(91, 160, 74)',
-            '--bs-pagination-active-border-color': 'rgb(91, 160, 74)',
+            '--bs-pagination-active-bg': 'rgb(0, 0, 0)',
+            '--bs-pagination-active-border-color': 'rgb(0, 0, 0)',
             '--bs-pagination-disabled-color': '#6c757d',
             '--bs-pagination-disabled-bg': '#fff',
             '--bs-pagination-disabled-border-color': '#dee2e6',
@@ -462,20 +462,20 @@ const SearchPage = () => {
                                         minWidth: '150px'
                                     } : {
                                         backgroundColor: 'white',
-                                        borderColor: 'rgb(91, 160, 74)',
-                                        color: 'rgb(91, 160, 74)',
+                                        borderColor: 'rgb(0, 0, 0)',
+                                        color: 'rgb(0, 0, 0)',
                                         minWidth: '150px'
                                     }}
                                     onMouseEnter={(e) => {
                                         if (activeTab !== 'quick') {
-                                            e.target.style.backgroundColor = 'rgb(91, 160, 74)';
+                                            e.target.style.backgroundColor = 'rgb(0, 0, 0)';
                                             e.target.style.color = 'white';
                                         }
                                     }}
                                     onMouseLeave={(e) => {
                                         if (activeTab !== 'quick') {
                                             e.target.style.backgroundColor = 'white';
-                                            e.target.style.color = 'rgb(91, 160, 74)';
+                                            e.target.style.color = 'rgb(0, 0, 0)';
                                         }
                                     }}
                                 >
@@ -490,20 +490,20 @@ const SearchPage = () => {
                                         minWidth: '150px'
                                     } : {
                                         backgroundColor: 'white',
-                                        borderColor: 'rgb(91, 160, 74)',
-                                        color: 'rgb(91, 160, 74)',
+                                        borderColor: 'rgb(0, 0, 0)',
+                                        color: 'rgb(0, 0, 0)',
                                         minWidth: '150px'
                                     }}
                                     onMouseEnter={(e) => {
                                         if (activeTab !== 'advanced') {
-                                            e.target.style.backgroundColor = 'rgb(91, 160, 74)';
+                                            e.target.style.backgroundColor = 'rgb(0, 0, 0)';
                                             e.target.style.color = 'white';
                                         }
                                     }}
                                     onMouseLeave={(e) => {
                                         if (activeTab !== 'advanced') {
                                             e.target.style.backgroundColor = 'white';
-                                            e.target.style.color = 'rgb(91, 160, 74)';
+                                            e.target.style.color = 'rgb(0, 0, 0)';
                                         }
                                     }}
                                 >
@@ -563,8 +563,8 @@ const SearchPage = () => {
                                                 type="submit"
                                                 className="btn btn-search btn-primary button-css"
                                                 style={{
-                                                    backgroundColor: 'rgb(91, 160, 74)',
-                                                    borderColor: 'rgb(91, 160, 74)'
+                                                    backgroundColor: 'rgb(226, 157, 186)',
+                                                    borderColor: 'rgb(226, 157, 186)'
                                                 }}
                                                 disabled={loading}
                                             >
@@ -593,7 +593,7 @@ const SearchPage = () => {
                 <h1>
                     <div className='card-title text-center mb-4'>
                         Найдено объявлений:
-                        <span style={{ color: 'rgb(91, 160, 74)' }}> {totalCount}</span>
+                        <span style={{ color: 'rgb(226, 157, 186)' }}> {totalCount}</span>
                     </div>
                 </h1>
                 <br />
@@ -602,7 +602,7 @@ const SearchPage = () => {
                         <div className="spinner-border" role="status" style={{
                             width: '3rem',
                             height: '3rem',
-                            color: 'rgb(91, 160, 74)'
+                            color: 'rgb(226, 157, 186)'
                         }}>
                             <span className="visually-hidden">Загрузка...</span>
                         </div>
@@ -614,14 +614,14 @@ const SearchPage = () => {
                     <>
                         {results.length === 0 ? (
                             <div className="no-results text-center py-5">
-                                <i className="bi bi-search" style={{ fontSize: '4rem', color: 'rgb(91, 160, 74)' }}></i>
+                                <i className="bi bi-search" style={{ fontSize: '4rem', color: 'rgb(226, 157, 186)' }}></i>
                                 <h4 className="mt-3">Ничего не найдено</h4>
                                 <p className="text-muted">Попробуйте изменить параметры поиска</p>
                                 <button
                                     className="btn btn-primary mt-2"
                                     style={{
-                                        backgroundColor: 'rgb(91, 160, 74)',
-                                        borderColor: 'rgb(91, 160, 74)'
+                                        backgroundColor: 'rgb(226, 157, 186)',
+                                        borderColor: 'rgb(226, 157, 186)'
                                     }}
                                     onClick={handleReset}
                                 >

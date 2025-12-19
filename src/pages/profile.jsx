@@ -252,7 +252,7 @@ const Profile = () => {
     const getStatusStyle = (status) => {
         switch (status) {
             case 'active':
-                return { backgroundColor: '#rgb(91, 160, 74)', color: 'white' };
+                return { backgroundColor: '#rgb(221, 116, 169)', color: 'white' };
             case 'wasFound':
                 return { backgroundColor: '#17a2b8', color: 'white' };
             case 'onModeration':
@@ -559,7 +559,7 @@ const Profile = () => {
                         <div className="col-12 col-lg-3">
                             <div className="profile-stats-wrapper">
                                 <div className="card profile-stats-card" style={{
-                                    backgroundColor: 'rgb(91, 160, 74)',
+                                    backgroundColor: 'rgb(255, 207, 219)',
                                     color: 'white',
                                     minHeight: '250px',
                                     height: '250px',
@@ -586,7 +586,7 @@ const Profile = () => {
                         <div className="col-12 col-lg-9">
                             <div className="user-ads-wrapper">
                                 <div className="card h-100 user-ads-card" style={{
-                                    backgroundColor: 'rgb(91, 160, 74)',
+                                    backgroundColor: 'rgb(255, 207, 219)',
                                     minHeight: '280px'
                                 }}>
                                     <div className="card-body d-flex flex-column" style={{ width: '100%' }}>
@@ -700,17 +700,17 @@ const Profile = () => {
                                                                         className="btn btn-primary button-css"
                                                                         onClick={() => setIsEditingContacts(true)}
                                                                         style={{
-                                                                            backgroundColor: 'rgb(91, 160, 74)',
-                                                                            borderColor: 'rgb(91, 160, 74)',
+                                                                            backgroundColor: 'rgb(0, 0, 0)',
+                                                                            borderColor: 'rgb(0, 0, 0)',
                                                                             color: 'white'
                                                                         }}
                                                                         onMouseEnter={(e) => {
-                                                                            e.target.style.backgroundColor = 'rgb(81, 140, 64)';
-                                                                            e.target.style.borderColor = 'rgb(81, 140, 64)';
+                                                                            e.target.style.backgroundColor = 'rgb(0, 0, 0)';
+                                                                            e.target.style.borderColor = 'rgb(0, 0, 0)';
                                                                         }}
                                                                         onMouseLeave={(e) => {
-                                                                            e.target.style.backgroundColor = 'rgb(91, 160, 74)';
-                                                                            e.target.style.borderColor = 'rgb(91, 160, 74)';
+                                                                            e.target.style.backgroundColor = 'rgb(0, 0, 0)';
+                                                                            e.target.style.borderColor = 'rgb(0, 0, 0)';
                                                                         }}
                                                                     >
                                                                         Изменить
@@ -724,17 +724,17 @@ const Profile = () => {
                                                                             className="btn btn-primary button-css"
                                                                             disabled={isSavingContacts}
                                                                             style={{
-                                                                                backgroundColor: 'rgb(91, 160, 74)',
-                                                                                borderColor: 'rgb(91, 160, 74)',
+                                                                                backgroundColor: 'rgb(0, 0, 0)',
+                                                                                borderColor: 'rgb(0, 0, 0)',
                                                                                 color: 'white'
                                                                             }}
                                                                             onMouseEnter={(e) => {
-                                                                                e.target.style.backgroundColor = 'rgb(81, 140, 64)';
-                                                                                e.target.style.borderColor = 'rgb(81, 140, 64)';
+                                                                                e.target.style.backgroundColor = 'rgb(0, 0, 0)';
+                                                                                e.target.style.borderColor = 'rgb(0, 0, 0)';
                                                                             }}
                                                                             onMouseLeave={(e) => {
-                                                                                e.target.style.backgroundColor = 'rgb(91, 160, 74)';
-                                                                                e.target.style.borderColor = 'rgb(91, 160, 74)';
+                                                                                e.target.style.backgroundColor = 'rgb(0, 0, 0)';
+                                                                                e.target.style.borderColor = 'rgb(0, 0, 0)';
                                                                             }}
                                                                         >
                                                                             {isSavingContacts ? (

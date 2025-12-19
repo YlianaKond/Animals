@@ -116,19 +116,19 @@ const EditAdModal = ({ ad, show, onClose, onSave }) => {
                                             type="submit"
                                             className="btn btn-primary"
                                             style={{
-                                                backgroundColor: 'rgb(91, 160, 74)',
-                                                borderColor: 'rgb(91, 160, 74)',
+                                                backgroundColor: 'rgb(175, 98, 140)',
+                                                borderColor: 'rgb(175, 98, 140)',
                                                 color: 'white',
                                                 transition: 'all 0.3s ease'
                                             }}
                                             onMouseOver={(e) => {
-                                                e.target.style.backgroundColor = 'rgb(66, 124, 51)';
-                                                e.target.style.borderColor = 'rgb(66, 124, 51)';
+                                                e.target.style.backgroundColor = 'rgb(175, 98, 140)';
+                                                e.target.style.borderColor = 'rgb(175, 98, 140)';
                                                 e.target.style.color = 'white';
                                             }}
                                             onMouseOut={(e) => {
-                                                e.target.style.backgroundColor = 'rgb(91, 160, 74)';
-                                                e.target.style.borderColor = 'rgb(91, 160, 74)';
+                                                e.target.style.backgroundColor = 'rgb(175, 98, 140)';
+                                                e.target.style.borderColor = 'rgb(175, 98, 140)';
                                                 e.target.style.color = 'white';
                                             }}
                                         >

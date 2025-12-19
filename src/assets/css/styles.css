@@ -25,7 +25,7 @@
     height: 100%;
     width: 100%;
     border-radius: 10px;
-    box-shadow: 0 3px 8px #333333;
+    box-shadow: 0 3px 8px #e640ae;
     transition: transform 0.3s;
 }
 .gallery img:hover {
@@ -57,7 +57,7 @@
 }
 
 footer {
-    background-color: rgb(91, 160, 74);
+    background-color: rgb(240, 115, 131);
 }
 .footer2 {
     position: fixed;
@@ -65,7 +65,7 @@ footer {
     width: 100%;
 }
 .nav-css {
-    background-color: rgb(91, 160, 74);
+    background-color: rgb(223, 154, 182);
 }
 
 main {
@@ -77,7 +77,7 @@ header {
     top: 0;
     z-index: 1000;
     background: white;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    box-shadow: 0 2px 5px rgba(255, 255, 255, 0.1);
 }
         /* Стили для одинаковых карточек */
         .card {
@@ -102,12 +102,12 @@ header {
             box-shadow: 0 4px 8px rgba(0,0,0,0.1);
         }
 .button-css {
-    background-color: rgb(91, 160, 74);
+    background-color: rgb(230, 161, 207);
     color: white;
     border: none;
 }
 .button-css:hover {
-    background-color: rgb(69, 134, 88)
+    background-color: rgb(228, 165, 223)
 }
 
 body {

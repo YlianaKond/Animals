@@ -117,7 +117,7 @@ const UserAds = ({ ads, onAdUpdate, onAdDelete, getStatusClass, getStatusStyle }
                                             className="btn btn-outline-primary btn-sm flex-grow-1"
                                             onClick={() => handleEditClick(ad)}
                                             style={{
-                                                borderColor: 'rgb(91, 160, 74)',
+                                                borderColor: 'rgb(221, 171, 210)',
                                                 color: 'rgb(91, 160, 74)',
                                                 transition: 'all 0.3s ease'
                                             }}
